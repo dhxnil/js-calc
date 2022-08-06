@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <script src="./calculator.js"></script>
+<style>
+
+table{
+    padding: 9px;
+    height: 350px;
+    width: 400px;
+
+    background-color:darkorange;
+    border-radius: 10px;
+    border: solid greenyellow;
+   
+    
+}
+input{
+    color:black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+width: 100%;
+border-radius: 5px;
+height: 100%;
+font-size: 20px;
+border-style:groove;
+border-color:chartreuse;
+
+}
+/* input:hover{
+
+} */
+body{
+        background-color: black;
+}
+.colspan{
+    position: relative;
+    top: -3px;
+    right: 1px;
+    width: auto; 
+background-color:white;
+
+  
+}
+.brand{
+    position: relative;
+    top: 130px;
+    left: -163px;
+    font-size: 16px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.br2{
+    font-size: medium;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    position: relative;
+    top: 80px;
+    left: 157px;
+    font-size: 15px;
+
+
+}
+input:hover{
+    color:darkblue
+}
+.b1{
+   background-color: green;
+}
+.b2{
+    background-color: gray;
+}
+.sums{
+    color:blue
+ 
+}
+.cancel{
+    background-color: red;
+}
+
+</style>
+
+
+
+
+</head>
+<body align="center"><br><br><br><br>
+    <p class="brand">
+       SONY<br> zx-1611
+        
+    </p>
+<h3 class="br2">CHROME<br>
+512</h3>
+    <table align="center">
+<td colspan="4"><input type="text" class="colspan" id="result"></td>      
+
+<tr >
+    <td> <input type="button" value="7" onclick="display('7')"class="b2"></td>
+    <td> <input type="button" value="8" onclick="display('8')"class="b2"></td>
+    <td> <input type="button" value="9" onclick="display('9')"class="b2"></td>
+    <td> <input type="button" value="x" onclick="display('*')"class="sums"></td>
+
+  
+</tr>
+<tr>
+    <td> <input type="button" value="4" onclick="display('4')"class="b2"></td>
+    <td> <input type="button" value="5" onclick="display('5')"class="b2"></td>
+    <td> <input type="button" value="6" onclick="display('6')"class="b2"></td>
+    <td> <input type="button" value="-" onclick="display('-')"class="sums"></td>
+
+</tr>
+<tr>
+    <td> <input type="button" value="1" onclick="display('1')"class="b2"></td>
+    <td> <input type="button" value="2" onclick="display('2')"class="b2"></td>
+    <td> <input type="button" value="3" onclick="display('3')"class="b2"></td>
+    <td> <input type="button" value="+" onclick="display('+')"class="sums"></td>
+
+</tr>
+<tr>
+    <td><input type="button" value="0" onclick="display('0')"class="b2"></td>
+    <td><input type="button" value="C" onclick="cancel()" class="cancel"></td>
+    <td><input type="button" value="=" onclick="equals()" class="b1"></td>
+    <td><input type="button" value="/" onclick="display('/')"class="sums"></td>
+
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </table>
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
